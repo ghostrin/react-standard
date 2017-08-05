@@ -1,0 +1,19 @@
+.active-box{
+  padding:px2Rem(14px) 0;
+  background: #FFFFFF;
+  border-bottom:1px solid #ddd;
+  overflow-x: auto;
+  white-space: nowrap;
+  @include px2px(18);
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .activeA{
+    display:inline-block;
+    margin-left: px2Rem(14px);
+    .imgs{
+      width:px2Rem(240px);
+      height:auto;
+    }
+  }
+}
